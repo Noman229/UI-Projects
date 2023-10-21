@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Mochiy Pop One', sans-serif;
+}
+.section-heading{
+    color: #F4B638;
+    font-size: 18px;
+	text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+#skticy-icons{
+	position: fixed;
+    bottom: 0;
+    right: 0px;
+    background-color: #F4B638;
+    width: 100%;
+    z-index: 999;
+}
+#skticy-icons ul{
+	margin-bottom: 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+#skticy-icons li{
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+/* ==================== HEADER STYLING ==================== */
+#navigation{
+	position: relative;
+	z-index: 999;
+	background-color: #2d2d2d;
+	padding: 5px;
+}
+#navigation ul{
+	width: 100%;
+	text-align: center;
+}
+#navigation li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+#navigation li a:hover{
+	color: #F4B638;
+}
+.nav-item {
+    margin-left: 0px;
+}
+.navbar-brand img{
+	width: 200px;
+}
+.navbar-toggler:focus{
+	box-shadow: none;
+}
+.navbar-toggler{
+	border:  1px solid #fff;
+	border-radius: 0;
+	padding: 5px;
+}
+.navbar-toggler img{
+	position: relative;
+	top: 0;
+	width: 24px;
+}
+/* ==================== FOOTER STYLING ==================== */
+#footer{
+	padding: 30px 0 0 0;
+	background-color: #2d2d2d;
+}
+.footer-logo{
+	text-align: center;
+}
+.footer-logo img{
+	width: 250px;
+}
+.footer-link ul{
+	flex-wrap: wrap;
+}
+.footer-link li{
+	padding: 0 5px;
+}
+.footer-link li a{
+	color: #fff;
+	font-size: 12px;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+.footer-link li a:hover{
+	color: #F4B638;
+	text-decoration: underline;
+}
+.info{
+	text-align: center;
+}
+.info li a{
+	text-decoration: none;
+}
+.social img{
+	width: 24px;
+}
+.copyright-bar{
+	border-top: 1px solid #5d5d5d;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+.copyright-bar a{
+	color: #F4B638;
+}
+.copyright-bar p{
+	margin-bottom: 0;
+}
+/* ==================== CLIENTS STYLING ==================== */
+#client{
+	padding: 0px 0 30px 0;
+}
+.client-item{
+	margin-bottom: 30px;
+}
+#client h6{
+	text-align: center;
+}
+.client-item img{
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 120px;
+    margin: 0 auto;
+}
+.slick-next:before, .slick-prev:before{
+	line-height: 1.3;
+	color: #000;
+}
+.slick-dots li button:before{
+	top: 12px;
+	font-size: 12px;
+}
+.slick-dots {
+    bottom: -10px;
+}

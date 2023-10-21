@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Mochiy Pop One', sans-serif;
+}
+.section-heading{
+    color: #F4B638;
+	font-size: 28px;
+	text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+}
+
+#skticy-icons{
+	position: fixed;
+	top: 40%;
+	right: 0;
+	background-color: #F4B638;
+	width: 50px;
+	min-height: 100px;
+	z-index: 999;
+	border-radius: 5px 0 0 5px;
+}
+#skticy-icons ul{
+	margin-bottom: 0;
+}
+#skticy-icons li{
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+#skticy-icons li:last-child{
+	border-bottom: none;
+}
+/* ==================== HEADER STYLING ==================== */
+#navigation{
+	position: relative;
+	z-index: 999;
+}
+#navigation ul{
+	justify-content: end;
+	width: 100%;
+}
+#navigation li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	opacity: 0;
+	animation: slideBottom .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+#navigation li a:hover{
+	color: #F4B638;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.navbar-brand img{
+	width: 300px;
+}
+/* ==================== FOOTER STYLING ==================== */
+#footer{
+	padding: 30px 0 0 0;
+	background-color: #2d2d2d;
+}
+.footer-logo{
+	text-align: center;
+}
+.footer-link li{
+	padding: 0px 10px;
+}
+.footer-link li a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.footer-link li a:hover{
+	color: #F4B638;
+	text-decoration: underline;
+}
+.info{
+	text-align: center;
+}
+.copyright-bar{
+	border-top: 1px solid #5d5d5d;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+.copyright-bar a{
+	color: #F4B638;
+}
+.copyright-bar p{
+	margin-bottom: 0;
+}
+/* ==================== CLIENTS STYLING ==================== */
+#client{
+	padding: 0px 0 50px 0;
+}
+.client-item img{
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+.slick-next:before, .slick-prev:before{
+	line-height: 1.3;
+	color: #000;
+}
+.slick-dots li button:before{
+	top: 12px;
+	font-size: 12px;
+}

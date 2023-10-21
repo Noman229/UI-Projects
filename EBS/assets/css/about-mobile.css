@@ -1,0 +1,55 @@
+#navigation{
+	background-color: #2d2d2d;
+}
+.bg-img{
+	padding: 20px 0;
+	background-image: url('../img/market-bg.webp');
+	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.bg-content{
+	width: 80%;
+	margin: 0 auto;
+}
+#first-content-box{
+	padding: 0;
+}
+#first-content-box h2, #second-content-box h4, .values h2{
+	text-align: left;
+}
+.bg-content h2, #client h6{
+	text-align: center;
+}
+#first-content-box .col-md-7{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content-box{
+	display: block;
+	margin-bottom: 30px;
+}
+.vision{
+	border-bottom: 1px solid #eee;
+}
+.vision p, .mision p{
+	margin-bottom: 0;
+}
+.vision, .mision{
+	padding:20px 10px;
+}
+.vision h4, .mision h4{
+	margin-bottom: 10px;
+}
+.values{
+	padding:0 0 20px 0;
+}
+.values h6{
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 10px;
+}

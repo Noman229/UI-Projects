@@ -1,0 +1,62 @@
+#navigation{
+	background-color: #2d2d2d;
+}
+.bg-img{
+	padding: 100px 0;
+	background-image: url('../img/market-bg.webp');
+	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.bg-content{
+	width: 60%;
+	margin: 0 auto;
+}
+.service-box{
+	padding: 50px 0;
+}
+.service-box .row{
+	margin-bottom: 70px;
+}
+.service-box .row:last-child{
+	margin-bottom: 0px;
+}
+.service-box h2{
+	text-align: left;
+	font-size: 22px;
+    line-height: 36px;
+}
+.service-box .col-md-6.service-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.service-box .service-img{
+	text-align: center;
+}
+.service-box .service-img img{
+	border-radius: 5px;
+	border: 5px solid #000;
+}
+#client{
+	padding: 50px 0;
+}
+#client h6{
+	text-align: center;
+}
+.client-item img{
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+.slick-next:before, .slick-prev:before{
+	line-height: 1.3;
+	color: #000;
+}
+.slick-dots li button:before{
+	top: 12px;
+	font-size: 12px;
+}

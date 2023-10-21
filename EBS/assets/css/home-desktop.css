@@ -1,0 +1,151 @@
+/* ==================== HERO STYLING ==================== */
+#hero{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	margin-top: -86px;
+	z-index: 0;
+}
+#hero .hero-caption{
+	text-align: center;
+	z-index: 999;
+	padding: 0 25%;
+}
+.hero-caption h4{
+    color: #fff;
+	font-size: 32px;
+    font-weight: 700;
+}
+.hero-caption h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: #F4B638;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.hero-caption p{
+	letter-spacing: 1px;
+	color: #fff;
+}
+.hero-caption a button{
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #F4B638;
+	background-color: transparent;
+	border: 1px solid #F4B638;
+	padding: 10px 30px;
+	border-radius: 0;
+	transition: 0.3s;
+}
+.hero-caption a button:hover{
+	background-color: #F4B638;
+}
+.video-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+/* ==================== ABOUT STYLING ==================== */
+#about{
+	padding: 50px 0;
+}
+#about img{
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+.about-content h6{
+	text-align: left;
+}
+#about .col-md-5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#about .col-md-7{
+	padding-left: 50px;
+}
+.about-content a{
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #F4B638;
+	background-color: transparent;
+	border: 1px solid #F4B638;
+	padding: 10px 30px;
+	border-radius: 0;
+	transition: 0.3s;
+	text-decoration: none;
+	display: block;
+	width: 200px;
+    text-align: center;
+}
+#about h2 button{
+	font-size: 12px;
+}
+.about-content a:hover{
+	color: #FFF;
+	background-color: #F4B638;
+}
+/* ==================== MARKET SERVEY STYLING ==================== */
+#market-survey{
+	padding: 50px 0 120px 0;
+	background-image: url('../img/market-bg.webp');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.market-survey p{
+	text-align: center;
+	color: #fff;
+	padding: 0 10%;
+}
+/* ==================== SERVICES STYLING ==================== */
+#services{
+	padding: 50px 0 20px 0;
+	position: relative;
+	top: -120px;
+}
+.card-content{
+	position: absolute;
+    top: 27px;
+    text-align: center;
+    padding: 25px;
+    z-index: 1;
+}
+#services .card{
+	border: 7px solid #fff;
+}
+.img-overlay{
+	position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+/* ==================== FAQS STYLING ==================== */
+#faq{
+	padding: 50px 0;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #F4B638;
+    color: #222;
+}
+.accordion-button:focus{
+	box-shadow: none;
+}
+/* ==================== BLOGS STYLING ==================== */
+#blog{
+	padding: 50px 0;
+}
+#blog a{
+	text-decoration: none;
+	color: #222;
+}
